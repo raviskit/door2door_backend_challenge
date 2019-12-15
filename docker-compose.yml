@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  api:
+    build: .
+    command: bundle exec rails s -b 0.0.0.0 -p 3000
+    volumes:
+      - .:/src
+    ports:
+      - "3000:3000"
+  db:
+    image: mongo:4.0
+    command: mongod --quiet
+    ports:
+      - "27017:27017"
