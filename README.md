@@ -20,8 +20,9 @@ It will run the application on port localhost:3000
 ## Specs
 
 To run the specs run the docker container in one tab and in another tab run
+
   docker-compose exec api bundle exec rspec spec
-  
+
 ## Features Implemented
 
 - [x] Vehicle registration
@@ -31,6 +32,7 @@ To run the specs run the docker container in one tab and in another tab run
 - [x] Archive valid vehicle locations
 - [x] Solution is able to handle the simulation tool's load
 - [x] Containerized
+- [x] Tested with rspec
 
 ## Endpoints
 
