@@ -17,7 +17,11 @@ Application is containerized. To run the application, make sure Docker is instal
 
 It will run the application on port localhost:3000
 
+## Specs
 
+To run the specs run the docker container in one tab and in another tab run
+  docker-compose exec api bundle exec rspec spec
+  
 ## Features Implemented
 
 - [x] Vehicle registration
